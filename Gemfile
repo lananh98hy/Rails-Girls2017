@@ -16,6 +16,8 @@ group :production do
   gem 'pg'
 end
 gem 'carrierwave'
+gem 'cloudinary'
+gem 'mini_magick'
 gem 'net-ssh'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
@@ -59,3 +61,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'devise'
+gem 'gravtastic'
